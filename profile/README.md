@@ -12,19 +12,19 @@
 
 ---
 
-**182 deterministic developer tools** — JSON, encoding, hashing, text, color, CSS, regex, and an AI-agent
+**182 deterministic developer tools**: JSON, encoding, hashing, text, color, CSS, regex, and an AI-agent
 toolkit for LLM pipelines. No LLM calls for the core tools. No side effects. Runs locally or over HTTP.
 
-One shared registry, six surfaces — every tool is specified once and behaves identically everywhere.
+One shared registry, six surfaces. Every tool is specified once and behaves identically everywhere.
 
 | Surface | Install | Auth |
 |---------|---------|------|
-| 🌐 **Browser** | [utilix.tech/tools](https://utilix.tech/tools) — instant, no install | — |
-| 📦 **Node.js SDK** | `npm install @utilix-tech/sdk` | — |
-| 🐍 **Python SDK** | `pip install utilix-sdk` | — |
-| 🤖 **MCP Server** | `npx @utilix-tech/mcp` — 135 tools (Claude / Cursor / VS Code) | — |
+| 🌐 **Browser** | [utilix.tech/tools](https://utilix.tech/tools) · instant, no install | none |
+| 📦 **Node.js SDK** | `npm install @utilix-tech/sdk` | none |
+| 🐍 **Python SDK** | `pip install utilix-sdk` | none |
+| 🤖 **MCP Server** | `npx @utilix-tech/mcp` · 135 tools (Claude / Cursor / VS Code) | none |
 | 🔗 **REST API** | `api.utilix.tech/v1/...` | API key |
-| 🧩 **Embed** | drop any tool into your own site | — |
+| 🧩 **Embed** | drop any tool into your own site | none |
 
 ---
 
@@ -61,7 +61,7 @@ chunks = chunk_text(text, chunk_size=256, overlap=32)
 ranked = rerank_chunks("machine learning", [c["text"] for c in chunks])
 ```
 
-**MCP — Claude Desktop / Cursor / VS Code**
+**MCP · Claude Desktop / Cursor / VS Code**
 
 ```json
 {
@@ -97,10 +97,10 @@ ranked = rerank_chunks("machine learning", [c["text"] for c in chunks])
 
 | | |
 |-|-|
-| [`utilix-sdk`](https://github.com/utilix-tech/utilix-sdk) | Node.js + Python SDK — examples and quickstarts |
+| [`utilix-sdk`](https://github.com/utilix-tech/utilix-sdk) | Node.js + Python SDK · examples and quickstarts |
 | [`utilix-mcp`](https://github.com/utilix-tech/utilix-mcp) | MCP server config + 60+ example prompts |
-| [`utilix-api`](https://github.com/utilix-tech/utilix-api) | REST API — examples in curl, Python, Node.js, Go |
-| [`utilix-embed`](https://github.com/utilix-tech/utilix-embed) | Embed SDK — drop any tool into your own site |
+| [`utilix-api`](https://github.com/utilix-tech/utilix-api) | REST API · examples in curl, Python, Node.js, Go |
+| [`utilix-embed`](https://github.com/utilix-tech/utilix-embed) | Embed SDK · drop any tool into your own site |
 
 ---
 
