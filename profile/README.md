@@ -12,15 +12,19 @@
 
 ---
 
-100+ deterministic developer tools — JSON, encoding, hashing, text, color, CSS, regex, and a 28-tool AI agent toolkit for LLM pipelines. No LLM calls for the core tools. No side effects. Runs locally or over HTTP.
+**182 deterministic developer tools** — JSON, encoding, hashing, text, color, CSS, regex, and an AI-agent
+toolkit for LLM pipelines. No LLM calls for the core tools. No side effects. Runs locally or over HTTP.
+
+One shared registry, six surfaces — every tool is specified once and behaves identically everywhere.
 
 | Surface | Install | Auth |
 |---------|---------|------|
 | 🌐 **Browser** | [utilix.tech/tools](https://utilix.tech/tools) — instant, no install | — |
 | 📦 **Node.js SDK** | `npm install @utilix-tech/sdk` | — |
 | 🐍 **Python SDK** | `pip install utilix-sdk` | — |
-| 🤖 **MCP Server** | `npx @utilix-tech/mcp` (Claude / Cursor / VS Code) | — |
+| 🤖 **MCP Server** | `npx @utilix-tech/mcp` — 135 tools (Claude / Cursor / VS Code) | — |
 | 🔗 **REST API** | `api.utilix.tech/v1/...` | API key |
+| 🧩 **Embed** | drop any tool into your own site | — |
 
 ---
 
